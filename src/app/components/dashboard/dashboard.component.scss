@@ -1,0 +1,58 @@
+.dashboard-card {
+  border: none;
+  border-radius: 10px;
+  background: #00bd56;
+}
+
+.dashboard-card {
+  .card-body {
+    .dashboard-title {
+      font-family: 'Archivo', sans-serif;
+      font-size: 1.2em;
+      line-height: 30px;
+      letter-spacing: 0.5px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .dashboard-subtitle {
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1.4em;
+      line-height: 16px;
+      color: white;
+    }
+  }
+}
+
+
+/* card identidad usuario */
+.dashboard-card-identity {
+  border: none;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+
+  background: #487eb0;
+
+  .card-body {
+    .dashboard-title {
+      font-family: 'Archivo', sans-serif;
+      font-size: 1.2em;
+      line-height: 30px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .dashboard-subtitle {
+      font-family: 'Archivo', sans-serif;
+      font-size: 0.9em;
+      line-height: 20px;
+      text-align: justify;
+      color: white;
+    }
+
+    .dashboard-email {
+      color: white;
+      font-weight: bold;
+    }
+  }
+}

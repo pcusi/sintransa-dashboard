@@ -1,0 +1,25 @@
+{
+  "area": [
+    {
+      "name": "TCT VACIOS"
+    },
+    {
+      "name": "TCT LLENOS"
+    },
+    {
+      "name": "TCSA CALLAO"
+    },
+    {
+      "name": "SEDE ILO"
+    },
+    {
+      "name": "SEDE SALAVERRY"
+    },
+    {
+      "name": "TRANSPORTES"
+    },
+    {
+      "name": "ADMINISTRACIÓN"
+    }
+  ]
+}

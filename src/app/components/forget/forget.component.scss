@@ -1,0 +1,47 @@
+.forget-title {
+  font-family: 'Kanit', sans-serif;
+  color: #00BD56;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.forget-form {
+
+  .forget-input {
+    width: 70%;
+  }
+
+  .form-group {
+    margin: 0;
+
+    .forget-input-label {
+      font-family: 'Nunito', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      color: #A3A0A0;
+      text-transform: uppercase;
+    }
+
+    .forget-input-icon {
+      position: relative;
+      top: 6px;
+      margin: 5px;
+      color: #A3A0A0;
+    }
+  }
+
+  .forget-btn {
+    width: 70%;
+    height: 50px;
+    background: #00BD56;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+  }
+}
+
+.forget-image {
+    position: relative;
+    top: 45px;
+}

@@ -1,1 +1,228 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Kanit&family=Nunito&family=Quicksand&display=swap');
+
+/* 
+
+font-family: 'Archivo', sans-serif;
+font-family: 'Kanit', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Quicksand', sans-serif;
+
+*/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('assets/fonts/icomoon.eot?x6kijz');
+  src: url('assets/fonts/icomoon.eot?x6kijz#iefix') format('embedded-opentype'),
+    url('assets/fonts/icomoon.ttf?x6kijz') format('truetype'),
+    url('assets/fonts/icomoon.woff?x6kijz') format('woff'),
+    url('assets/fonts/icomoon.svg?x6kijz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak-as: never;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-backup .path1:before {
+  content: "\e900";
+  color: rgb(128, 180, 251);
+}
+
+.icon-backup .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(84, 144, 249);
+}
+
+.icon-backup .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(128, 180, 251);
+}
+
+.icon-backup .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(84, 144, 249);
+}
+
+.icon-backup .path5:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(157, 198, 251);
+}
+
+.icon-backup .path6:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(128, 180, 251);
+}
+
+.icon-backup .path7:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(157, 198, 251);
+}
+
+.icon-backup .path8:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(128, 180, 251);
+}
+
+.icon-backup .path9:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(177, 215, 251);
+}
+
+.icon-backup .path10:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(157, 198, 251);
+}
+
+.icon-backup .path11:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(255, 225, 129);
+}
+
+.icon-backup .path12:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(254, 196, 88);
+}
+
+.icon-backup .path13:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 101, 111);
+}
+
+.icon-backup .path14:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(255, 101, 111);
+}
+
+.icon-backup .path15:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 71, 86);
+}
+
+.icon-backup .path16:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 71, 86);
+}
+
+.icon-backup .path17:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-backup .path18:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-backup .path19:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+
+.icon-excel .path1:before {
+  content: "\e913";
+  color: rgb(236, 239, 241);
+}
+
+.icon-excel .path2:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(56, 142, 60);
+}
+
+.icon-excel .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(56, 142, 60);
+}
+
+.icon-excel .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(56, 142, 60);
+}
+
+.icon-excel .path5:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(56, 142, 60);
+}
+
+.icon-excel .path6:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(56, 142, 60);
+}
+
+.icon-excel .path7:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(56, 142, 60);
+}
+
+.icon-excel .path8:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(56, 142, 60);
+}
+
+.icon-excel .path9:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(56, 142, 60);
+}
+
+.icon-excel .path10:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(46, 125, 50);
+}
+
+.icon-excel .path11:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(250, 250, 250);
+}

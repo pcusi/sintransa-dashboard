@@ -1,0 +1,36 @@
+.panel-accordion .mat-expansion-panel-header-title,
+.panel-accordion .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.panel-accordion .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-card {
+  text-align: start;
+  background: whitesmoke;
+  width: auto;
+
+  .panel-card-title {
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.9em;
+    color: black;
+  }
+
+  .panel-card-description {
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.9em;
+    color: black;
+  }
+}
+
+.excel-link {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.9em;
+}
+
+.excel-small {
+  font-size: 1em !important;
+}

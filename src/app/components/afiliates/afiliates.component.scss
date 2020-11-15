@@ -1,0 +1,64 @@
+.btn-add {
+  background: #00bd56;
+  border-radius: 8px;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+  line-height: 25px;
+}
+
+::ng-deep .mat-ink-bar {
+  border-bottom: 2px solid #00bd56;
+}
+
+::ng-deep .mat-tab-label {
+  font-family: 'Archivo', sans-serif;
+  font-weight: bold;
+  line-height: 15px;
+  letter-spacing: 1px;
+  color: #757575;
+}
+
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0 0.6em;
+
+  tr th {
+    font-family: 'Archivo', sans-serif;
+    font-size: 0.9em;
+  }
+
+  .card-column {
+    text-align: start;
+    background: whitesmoke;
+    width: auto;
+    border-radius: 10px;
+    height: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    .card-column-text {
+      font-size: 0.9em;
+      font-family: 'Archivo', sans-serif;
+      vertical-align: middle;
+    }
+
+  }
+
+}
+
+/* afiliate img */
+.media {
+  .media-body {
+    justify-content: center;
+    padding-left: 10px;
+  }
+  .afiliate-img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.afiliate-info {
+  font-size: 0.9em;
+  font-family: 'Archivo', sans-serif;
+}

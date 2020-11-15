@@ -1,0 +1,45 @@
+<mat-tab-group [(selectedIndex)]="tabIndex">
+    <mat-tab label="Afiliados">
+
+        <!--  -->
+        <button class="btn btn-add float-right my-2" (click)="newAfiliate()">Agregar Afiliado</button>
+        <!--  -->
+
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Información</th>
+                    <th>Cargo</th>
+                    <th>Área</th>
+                    <th>Teléfono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="card-column" *ngFor="let a of afi">
+                    <th class="card-column-text text-center">{{a.idAfi}}</th>
+                    <td>
+                        <div class="media">
+                            <img src="{{a.photo}}" class="afiliate-img rounded-circle">
+                            <div class="media-body">
+                                <p class="m-0 afiliate-info">{{a.names}} {{a.lastnames}}</p>
+                                <span class="badge" [ngClass]="{'badge-success': a.status == 1,
+                                'badge-danger': a.status == 0}">
+                                    {{a.status == 1 ? 'Activo' : 'Inactivo'}}
+                                </span>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="card-column-text">{{a.a_position}}</td>
+                    <td class="card-column-text">{{a.area}}</td>
+                    <td class="card-column-text">
+                        {{a.phone != null ? a.phone : 'Sin número'}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </mat-tab>
+    <mat-tab label="Configuraciones">
+        <app-configuration></app-configuration>
+    </mat-tab>
+</mat-tab-group>

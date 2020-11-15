@@ -1,0 +1,90 @@
+/* login css properties */
+.login-title {
+  font-family: 'Kanit', sans-serif;
+  color: #00BD56;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.login-form {
+
+  .login-input {
+    width: 60%;
+  }
+
+  .form-group {
+    margin: 0;
+
+    small {
+      color: #65975D;
+      font-weight: bold;
+      transition-duration: 0.5s;
+    }
+
+    small:hover {
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .login-input-label {
+      font-family: 'Nunito', sans-serif;
+      font-weight: bold;
+      font-size: 18px;
+      color: #A3A0A0;
+      text-transform: uppercase;
+    }
+
+    .login-input-icon {
+      position: relative;
+      top: 6px;
+      margin: 5px;
+      color: #A3A0A0;
+    }
+  }
+
+  .login-btn {
+    width: 60%;
+    height: 50px;
+    background: #00BD56;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+  }
+}
+
+/* spinner */
+.login-loading {
+  position: relative;
+  left: 115px;
+  top: 15px;
+}
+
+/* spinner color */
+::ng-deep .mat-progress-spinner circle {
+  stroke: #00BD56 !important;
+}
+
+/* snackbar */
+::ng-deep .login-snack {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  color: #00BD56;
+  font-weight: bold;
+  border-radius: 15px;
+
+  span {
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .mat-simple-snackbar-action {
+    color: black;
+    box-shadow: none;
+  }
+
+  .mat-simple-snackbar-action:focus {
+    box-shadow: none;
+    border: none;
+  }
+}

@@ -1,0 +1,165 @@
+/* first navbar */
+.first-navbar {
+  .navbar-nav {
+    min-height: 50px;
+
+    .nav-item {
+      padding-left: 35px;
+      padding-right: 35px;
+
+      .nav-link {
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-size: 1em;
+        line-height: 30px;
+      }
+    }
+  }
+}
+
+/* sidebar */
+.sidebar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #00BD56;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+  .nav {
+    .nav-item {
+      .profile {
+        position: relative;
+        top: 7px;
+        left: 5px;
+
+        .nav-link {
+          font-family: 'Archivo';
+          font-weight: bold;
+          font-size: 15px;
+          line-height: 15px;
+        }
+
+        .small {
+          position: relative;
+          font-family: 'Archivo';
+          text-align: end;
+          bottom: 15px;
+          font-weight: bold;
+          font-size: 12px;
+          line-height: 11px;
+          color: #EEEAEA;
+          margin-bottom: -20px;
+        }
+      }
+    }
+  }
+}
+
+/* profile account verify */
+.verify-account {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .circle-verify {
+    position: relative;
+    width: 13px;
+    height: 13px;
+    top: 3px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+
+    .circle-verify-icon {
+      position: relative;
+      font-size: 10px;
+      color: #00BD56;
+      font-weight: bold;
+      bottom: 5px;
+      left: 1px;
+    }
+  }
+
+  .profile-account {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 17px;
+  }
+}
+
+
+.menu-button-icon {
+  color: white !important;
+}
+
+/* sidebar card */
+.sidebar-card {
+  border: none;
+  border-radius: 10px;
+  height: 75px;
+
+  .sidebar-card-title {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .sidebar-card-count {
+    font-family: 'Archivo', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 13px;
+    color: #757575;
+  }
+}
+
+/* report card */
+.report-card {
+  position: relative;
+  border: none;
+  border-radius: 10px;
+  top: 20px;
+
+  .report-image {
+    position: relative;
+    bottom: 45px;
+    margin-bottom: -35px;
+    width: 65px;
+    height: 65px;
+  }
+
+  .btn-report {
+    background: #00BD56;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Archivo', sans-serif;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+}
+
+/* active link */
+.active {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  border-bottom: 2px solid black;
+}
+
+/* menu-items */
+.mat-menu-item:focus {
+  outline: none;
+}
+
+/* user photo */
+.user-photo {
+  cursor: pointer;
+}

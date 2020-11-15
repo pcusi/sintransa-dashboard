@@ -1,0 +1,19 @@
+.blob-content {
+  position: absolute;
+
+  .blob-image {
+    position: relative;
+    bottom: 0;
+    left: 100%;
+    width: 600px;
+    height: 600px;
+  }
+
+  h1 {
+    position: relative;
+    bottom: 380px;
+    left: 55%;
+    margin-bottom: -150px;
+  }
+
+}

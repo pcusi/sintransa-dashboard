@@ -1,0 +1,31 @@
+{
+  "position": [
+    {
+      "name": "Coordinador"
+    },
+    {
+      "name": "Balancero"
+    },
+    {
+      "name": "Operador lleno"
+    },
+    {
+      "name": "Operador Vacío"
+    },
+    {
+      "name": "Transporte"
+    },
+    {
+      "name": "Supervisor"
+    },
+    {
+      "name": "Coordinador Vacíos"
+    },
+    {
+      "name": "Coordinador Servicio"
+    },
+    {
+      "name": "Almacenero"
+    }
+  ]
+}
