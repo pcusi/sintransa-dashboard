@@ -28,7 +28,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DocumentComponent } from './components/document/document.component';
 import { ConfigurationComponent } from './components/configuration/configuration.component';
 import { AfiliateFormComponent } from './dialogs/afiliate-form/afiliate-form.component';
-import { AfiliateCsvComponent } from './dialogs/afiliate-csv/afiliate-csv.component';
 
 
 @NgModule({
@@ -44,7 +43,6 @@ import { AfiliateCsvComponent } from './dialogs/afiliate-csv/afiliate-csv.compon
     DocumentComponent,
     ConfigurationComponent,
     AfiliateFormComponent,
-    AfiliateCsvComponent,
   ],
   imports: [
     BrowserModule,

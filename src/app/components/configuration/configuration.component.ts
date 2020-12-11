@@ -31,7 +31,6 @@ export class ConfigurationComponent implements OnInit {
       console.log('Result', result);
       this.csvRecords = result;
     }, (error: NgxCSVParserError) => {
-      console.log('Error', error);
     });
 
   }

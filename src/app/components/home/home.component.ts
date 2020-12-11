@@ -13,12 +13,11 @@ export class HomeComponent implements OnInit {
   links = [
     { name: 'Inicio', router: '/inicio/dashboard' },
     { name: 'Afiliados', router: '/inicio/afiliados' },
-    { name: 'Documentos', router: '/inicio/documentos' }
   ];
 
   sidecard = [
     { icon: 'assets/images/afiliados.svg', title: 'Afiliados', count: '220' },
-    { icon: 'assets/images/document.svg', title: 'Documentos', count: '10' },
+    //{ icon: 'assets/images/document.svg', title: 'Documentos', count: '10' },
   ]
 
   public identity: any;

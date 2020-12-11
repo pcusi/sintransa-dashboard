@@ -59,7 +59,7 @@ export class AfiliateFormComponent implements OnInit {
       area: [this.afiliates.area, [Validators.required]],
       a_position: [this.afiliates.a_position, [Validators.required]],
       phone: this.afiliates.phone,
-      dni: [this.afiliates.dni, [Validators.required,]]
+      dni: [this.afiliates.dni, [Validators.required]]
     });
   }
 
