@@ -27,7 +27,12 @@ export class AfiliatesComponent implements OnInit {
   getAfiliates() {
     this._a.getAfiliates().subscribe((data: any) => {
       this.afi = data.afiliados;
+      console.log(data);
     });
+  }
+
+  getId(id) {
+    console.log(id);
   }
 
   newAfiliate() {

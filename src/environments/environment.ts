@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  api: 'http://localhost:4000/api/v1/'
+  api: 'https://api-sintransa.herokuapp.com/api/v1/'
 };
 
 /*

@@ -20,7 +20,7 @@ export class AfiliatesService {
   }
 
   insertAfiliate(afiliate: Afiliates, token: any) {
-    return this._o.postToken('new-afiliate', afiliate, token);
+    return this._o.postToken('new-afiliate-token', afiliate, token);
   }
 
 }

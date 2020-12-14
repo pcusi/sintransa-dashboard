@@ -16,7 +16,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr class="card-column" *ngFor="let a of afi">
+                <tr class="card-column" *ngFor="let a of afi" (click)="getId(a.idAfi)">
                     <th class="card-column-text text-center">{{a.idAfi}}</th>
                     <td>
                         <div class="media">
